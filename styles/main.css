@@ -51,7 +51,8 @@ header nav a:hover {
 .filme-principal{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/Arcane2.jpg);
-    
+    background-position: center;
+    background-repeat: no-repeat;
 
     min-height: 94vh;
     background-size: cover;
@@ -63,9 +64,9 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     margin-top: 1.5%;
-    margin-left: 2%;
+    margin-left: 5%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -73,7 +74,7 @@ header nav a:hover {
     font-size: 40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 1%;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 .botoes{
@@ -101,4 +102,26 @@ header nav a:hover {
 
 .botao i{
     margin-right: .5em;
+}
+
+.filme-principal .container{
+    width: 40%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: .55em;
+}
+
+/* Alterar o botão next e previous */
+.owl-next span,
+.owl-prev span{
+    font-size: 3rem; 
+    color: white; 
+    font-weight: bold; 
 }
